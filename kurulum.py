@@ -1,0 +1,62 @@
+#!/usr/bin/env python3
+
+import os
+
+os.system("clear")
+os.system("figlet KURULUM")
+
+print("""
+
+**************************
+
+    >>>>>>>>>>>>>>>>>>> by Polad <<<<<<<<<<<<<<<<<<<<<<
+
+1)nmap yukləyəcək
+2)sqlmap yukləyəcək
+3)spamwa yukləyəcək
+4)TBomb yukləyək
+5)
+6)
+7)
+8)
+9)
+
+**************************
+""")
+
+islemno = input("hangini yuklenem isderdin: ")
+if islemno=="1":
+	islemno=input("sadece entere basin: ")
+	os.system("pkg install nmap "+islemno)
+elif islemno=="2":
+	islemno=input("sadece entere basin: ")
+	os.system("git clone https://github.com/sqlmapproject/sqlmap "+islemno)
+elif islemno=="3":
+	islemno=input("sadece entere basin: ")
+	os.system("git clone https://github.com/sandiwijayani1/spamwa "+islemno)
+elif islemno=="4":
+	islemno=input("sadece entere basin: ")
+	os.system("git clone https://github.com/TheSpeedX/TBomb "+islemno)
+
+
+
+
+
+
+
+
+
+
+else:
+	os.system("clear")
+	a = os.system("figlet HATA")
+	islemno==""
+	print(a)
+
+print("""
+
+***********************************************************
+
+""")
+
+os.system("figlet kurulum bitdi")
